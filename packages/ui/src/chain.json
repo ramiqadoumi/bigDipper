@@ -1,0 +1,314 @@
+{
+  "chainName": "ggezchain",
+  "title": "GGEZ1 Block Explorer",
+  "icon": "https://ggez.one/images/favicon.png?sanitize=true",
+  "extra": {
+    "profile": true,
+    "graphqlWs": false
+  },
+  "previewImage": "https://ggez.one/images/favicon.png?sanitize=true",
+  "themes": {
+    "default": "light",
+    "themeList": [
+      "dark",
+      "light",
+      "deuteranopia",
+      "tritanopia"
+    ],
+    "dark": {
+      "primary": {
+        "main": "#FF835B",
+        "contrastText": "#FFFFFF"
+      },
+      "background": {
+        "default": "#000000",
+        "paper": "#131316"
+      },
+      "divider": "#282828",
+      "text": {
+        "primary": "#E6E6E6",
+        "secondary": "#C4C4C4"
+      },
+      "custom": {
+        "general": {
+          "background": "#000000",
+          "surfaceOne": "#131316",
+          "surfaceTwo": "#212123",
+          "icon": "#999999"
+        },
+        "fonts": {
+          "fontOne": "#E6E6E6",
+          "fontTwo": "#C4C4C4",
+          "fontThree": "#818181",
+          "fontFour": "#999999",
+          "fontFive": "#FFFFFF",
+          "highlight": "#4092CD"
+        },
+        "primaryData": {
+          "one": "#F87255",
+          "two": "#FA9147",
+          "three": "#43BE7C",
+          "four": "#43A1BE"
+        },
+        "results": {
+          "pass": "#1EC490",
+          "fail": "#FD3B4C"
+        },
+        "tokenomics": {
+          "one": "#43A1BE",
+          "two": "#E3BB55",
+          "three": "#20D292"
+        },
+        "condition": {
+          "zero": "#E6E6E6",
+          "one": "#1EC490",
+          "two": "#FF9338",
+          "three": "#FF608A"
+        },
+        "charts": {
+          "zero": "#E6E6E6",
+          "one": "#43BE7C",
+          "two": "#FA9147",
+          "three": "#F44747",
+          "four": "#43A1BE",
+          "five": "#C25396"
+        },
+        "tags": {
+          "zero": "#E8E8E8",
+          "one": "#2460FA",
+          "two": "#2BA897",
+          "three": "#E79726",
+          "four": "#F17053",
+          "five": "#DA4B4B",
+          "six": "#9438DC",
+          "seven": "#1A869D",
+          "eight": "#2C9950",
+          "nine": "#B49F37",
+          "ten": "#E9A852",
+          "eleven": "#E94687",
+          "twelve": "#C15EC4",
+          "thirteen": "#C388D9",
+          "fourteen": "#46AEE9",
+          "fifteen": "#58BC91",
+          "sixteen": "#90BC58",
+          "seventeen": "#E99E8E",
+          "eighteen": "#F0A479",
+          "nineteen": "#D37763",
+          "twenty": "#D9C788"
+        },
+        "wallet": {
+          "background": "#5E5E5E",
+          "backgroundTwo": "#212123",
+          "surfaceOne": "#5E5C5C",
+          "surfaceTwo": "#D9D9D9",
+          "surfaceThree": "#4D4D4D",
+          "surfaceFour": "#414141",
+          "surfaceFive": "#777777",
+          "divider": "#34383E",
+          "textPrimary": "#000000",
+          "textSecondary": "#DDDDDD"
+        }
+      }
+    },
+    "light": {
+      "primary": {
+        "main": "#FF835B",
+        "contrastText": "#FFFFFF"
+      },
+      "background": {
+        "default": "#F8F8F8",
+        "paper": "#FFFFFF"
+      },
+      "divider": "#E8E8E8",
+      "text": {
+        "primary": "#000000",
+        "secondary": "#414141"
+      },
+      "custom": {
+        "general": {
+          "background": "#F8F8F8",
+          "surfaceOne": "#FFFFFF",
+          "surfaceTwo": "#F8F8F8",
+          "icon": "#999999"
+        },
+        "fonts": {
+          "fontOne": "#000000",
+          "fontTwo": "#414141",
+          "fontThree": "#777777",
+          "fontFour": "#999999",
+          "fontFive": "#FFFFFF",
+          "highlight": "#4092CD"
+        },
+        "primaryData": {
+          "one": "#F87255",
+          "two": "#FA9147",
+          "three": "#20D494",
+          "four": "#2FB6E0"
+        },
+        "results": {
+          "pass": "#1EC490",
+          "fail": "#FD3B4C"
+        },
+        "tokenomics": {
+          "one": "#2FB6E0",
+          "two": "#FFC93D",
+          "three": "#20D494"
+        },
+        "condition": {
+          "zero": "#E6E6E6",
+          "one": "#1EC490",
+          "two": "#FF9338",
+          "three": "#FF608A"
+        },
+        "charts": {
+          "zero": "#E6E6E6",
+          "one": "#20D494",
+          "two": "#FF8732",
+          "three": "#F44747",
+          "four": "#2FB6E0",
+          "five": "#E95EB1"
+        },
+        "tags": {
+          "zero": "#E8E8E8",
+          "one": "#2460FA",
+          "two": "#2BA891",
+          "three": "#E79720",
+          "four": "#F17047",
+          "five": "#DA4B4B",
+          "six": "#9438DC",
+          "seven": "#1A869D",
+          "eight": "#2C9944",
+          "nine": "#B49F31",
+          "ten": "#E9A846",
+          "eleven": "#E94681",
+          "twelve": "#C15EC4",
+          "thirteen": "#C388D9",
+          "fourteen": "#46AEE9",
+          "fifteen": "#58BC91",
+          "sixteen": "#90BC58",
+          "seventeen": "#E99E8E",
+          "eighteen": "#F0A479",
+          "nineteen": "#D37763",
+          "twenty": "#D9C788"
+        },
+        "wallet": {
+          "background": "#E8E8E8",
+          "backgroundTwo": "#FFFFFF",
+          "surfaceOne": "#5E5C5C",
+          "surfaceTwo": "#E8E7E8",
+          "surfaceThree": "#BDBDBD",
+          "surfaceFour": "#A1A1A1",
+          "surfaceFive": "#777777",
+          "divider": "#34383E",
+          "textPrimary": "#000000",
+          "textSecondary": "#222222"
+        }
+      }
+    }
+  },
+  "keplr": "{\n\"title\": \"GGEZ1 Block Explorer\",\n\"network\": \"ggezchain\",\n\"icon\": \"https://ggez.one/images/favicon.png?sanitize=true\",\n\"logo\": {\n\"default\": \"https://ggez.one/images/logo.png?sanitize=true\"\n},\n\"prefix\": {\n\"consensus\": \"ggezvalcons\",\n\"validator\": \"ggezvaloper\",\n\"account\": \"ggez\"\n},\n\"genesis\": {\n\"time\": \"2023-01-18T20:00:00\",\n\"height\": 52700\n},\n\"primaryCoinUnit\": \"gz\",\n\"votingPowerCoinUnit\": \"ggez1\",\n\"primaryTokenUnit\": \"uggez1\",\n\"votingPowerTokenUnit\": \"ugz\",\n\"tokenUnits\": {\n\"ugz\": {\n\"display\": \"ugz\",\n\"exponent\": 0\n},\n\"gz\": {\n\"display\": \"gz\",\n\"exponent\": 6\n},\n\"mgz\": {\n\"display\": \"mgz\",\n\"exponent\": 3\n},\n\"uggez1\": {\n\"display\": \"uggez1\",\n\"exponent\": 0\n},\n\"ggez1\": {\n\"display\": \"ggez1\",\n\"exponent\": 6\n},\n\"mggez1\": {\n\"display\": \"mggez1\",\n\"exponent\": 3\n}\n},\n\"extra\": {\n\"profile\": true\n}\n}",
+  "chains": [
+    {
+      "network": "ggezchain",
+      "chainType": "Testnet",
+      "genesis": {
+        "time": "2023-01-18T20:00:00",
+        "height": 52700
+      },
+      "prefix": {
+        "consensus": "ggezvalcons",
+        "validator": "ggezvaloper",
+        "account": "ggez"
+      },
+      "primaryCoinUnit": "gz",
+      "votingPowerCoinUnit": "ggez1",
+      "primaryTokenUnit": "ugz",
+      "votingPowerTokenUnit": "uggez1",
+      "tokenUnits": {
+        "ugz": {
+          "display": "ugz",
+          "exponent": 0
+        },
+        "gz": {
+          "display": "gz",
+          "exponent": 6
+        },
+        "mgz": {
+          "display": "mgz",
+          "exponent": 3
+        },
+        "uggez1": {
+          "display": "uggez1",
+          "exponent": 0
+        },
+        "ggez1": {
+          "display": "ggez1",
+          "exponent": 6
+        },
+        "mggez1": {
+          "display": "mggez1",
+          "exponent": 3
+        }
+      },
+      "endpoints": {
+        "graphql": "https://dgraph.ggez.one:8443/v1/graphql",
+        "graphqlWebsocket": "wss://dgraph.ggez.one:8443/v1/graphql",
+        "publicRpcWebsocket": "wss://dbc.ggez.one:26657/websocket"
+      },
+      "marketing": {
+        "matomoURL": "https://ggez.one/"
+      }
+    },
+    {
+      "network": "ggezchain",
+      "chainType": "Mainnet",
+      "genesis": {
+        "time": "2023-01-18T20:00:00",
+        "height": 52700
+      },
+      "prefix": {
+        "consensus": "ggezvalcons",
+        "validator": "ggezvaloper",
+        "account": "ggez"
+      },
+      "primaryCoinUnit": "gz",
+      "votingPowerCoinUnit": "ggez1",
+      "primaryTokenUnit": "ugz",
+      "votingPowerTokenUnit": "uggez1",
+      "tokenUnits": {
+        "ugz": {
+          "display": "ugz",
+          "exponent": 0
+        },
+        "gz": {
+          "display": "gz",
+          "exponent": 6
+        },
+        "mgz": {
+          "display": "mgz",
+          "exponent": 3
+        },
+        "uggez1": {
+          "display": "uggez1",
+          "exponent": 0
+        },
+        "ggez1": {
+          "display": "ggez1",
+          "exponent": 6
+        },
+        "mggez1": {
+          "display": "mggez1",
+          "exponent": 3
+        }
+      },
+      "endpoints": {
+        "graphql": "https://graph.ggez.one/v1/graphql",
+        "graphqlWebsocket": "wss://graph.ggez.one/v1/graphql",
+        "publicRpcWebsocket": "wss://bc.ggez.one:8443/websocket"
+      },
+      "marketing": {
+        "matomoURL": "https://ggez.one/"
+      }
+    }
+  ]
+}
